@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="semi_fab_margin">8dp</dimen>
+    <dimen name="height_image">120dp</dimen>
+    <dimen name="width_image">100dp</dimen>
+</resources>

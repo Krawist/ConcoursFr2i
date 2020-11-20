@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/semi_fab_margin">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/icon_genre"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:cardBackgroundColor="@color/blue"
+        app:cardCornerRadius="@dimen/semi_fab_margin"
+        app:cardElevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_person"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/human_female"
+            android:padding="@dimen/semi_fab_margin"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/textview_nom_personne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/icon_genre"
+        app:layout_constraintStart_toEndOf="@id/icon_genre"
+        app:layout_constraintBottom_toTopOf="@id/textview_telephone_email"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_marginStart="@dimen/semi_fab_margin"
+        android:layout_marginEnd="@dimen/semi_fab_margin"
+        android:text="Arthur Krawist 15 ans"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"/>
+
+    <TextView
+        android:id="@+id/textview_telephone_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textview_nom_personne"
+        app:layout_constraintBottom_toTopOf="@id/textview_localistation"
+        app:layout_constraintStart_toEndOf="@id/icon_genre"
+        android:layout_marginStart="@dimen/semi_fab_margin"
+        android:layout_marginEnd="@dimen/semi_fab_margin"
+        android:text="arthurngoben@gmail.com / 690142761"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"/>
+
+    <TextView
+        android:id="@+id/textview_localistation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textview_telephone_email"
+        app:layout_constraintStart_toEndOf="@id/icon_genre"
+        app:layout_constraintBottom_toBottomOf="@id/icon_genre"
+        android:layout_marginStart="@dimen/semi_fab_margin"
+        android:layout_marginEnd="@dimen/semi_fab_margin"
+        android:text="Yaoundé Mballa 2"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"/>
+
+    <ImageView
+        android:id="@+id/imageview_issynched"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_round_sync_24"
+        app:tint = "#0f0"
+        android:layout_margin="@dimen/semi_fab_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Concours FR2I</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="authority">com.example.fileprovider</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nom">Nom</string>
+    <string name="email">Email</string>
+    <string name="téléphone">Téléphone</string>
+    <string name="age">Age</string>
+    <string name="sexe">Sexe</string>
+    <string name="homme">Homme</string>
+    <string name="femme">Femme</string>
+    <string name="error_input_message">Veuillez remplir ce champ</string>
+    <string name="informations">Informations</string>
+    <string name="autoriser">Autoriser</string>
+    <string name="refuser">Refuser</string>
+    <string name="permission">PERMISSION</string>
+    <string name="permission_explanation_message">Veuillez autoriser \'acces à votre camra pour scanner</string>
+    <string name="resultats_du_scan">Resultats du Scan</string>
+    <string name="scan_impossible">Scan Impossible</string>
+    <string name="annuler">Annuler</string>
+    <string name="classifier">Classifier</string>
+</resources>
